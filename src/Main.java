@@ -12,6 +12,28 @@ public class Main {
         checkTriangle(2, 4, 5);
 
 
+//       Wywołanie klasy Prostokąt
+        Prostokat prostokat1 = new Prostokat();
+
+        prostokat1.bokA = 4;
+        prostokat1.bokB = 5;
+
+        System.out.println(prostokat1.obliczObwod());
+        System.out.println(prostokat1.obliczPole());
+        System.out.println(prostokat1.obliczPrzekatna());
+
+//        Wywołanie klasy MyNumber
+        MyNumber number1 = new MyNumber(5);
+
+        System.out.println("4) " + number1.isOdd());
+        System.out.println("5) " + number1.isEven());
+        System.out.println("6) " + number1.sqrt());
+        System.out.println("7) " + number1.pow(2));
+        System.out.println("8) " + number1.add(10));
+        System.out.println("9) " + number1.substract(15));
+
+
+
     }
 
 
